@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Interest Rate Calculator -Quickly Calculate Interest on Load</title>
+        <meta name="description" content="Quickly and accurately calculate interest rates">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css">   
+        <script src="script.js"></script>        
+        
+    </head>
+    <body>
+
+        <div class="calculator">
+            <h2>Interest Rate Calculator</h2>
+    
+                    <label for="amount">Principal Amount</label> <br>
+                    <input type="number" placeholder="Enter Principle Amount" id="amount" value="1000"/>
+
+            <br>
+                    <label for="rate">Rate(%)</label> <br>
+                    <input type="number" placeholder="Enter Rate"  id="rate" value="5"/>
+             <br>
+                    <label for="time">Time</label> <br>
+                    <input type="number" placeholder="Enter Time" id="time" value="1"/>
+             <br>
+             <button onclick="answer()">Calculate</button>
+             <p>Principle Amount:
+                <span id="output_1"></span>
+             </p>
+
+             <p>Total Interest:
+                <span id="output_2"></span>
+             </p>
+
+             <p>Total Value:
+                <span id="output_3"></span>
+             </p>
+    
+    </body>
+</html>
